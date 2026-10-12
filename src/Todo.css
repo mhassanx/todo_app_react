@@ -67,8 +67,38 @@
   color: #ffffff;
   font-size: 0.95rem;
   font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
   cursor: pointer;
   box-shadow: 0 12px 20px rgba(124, 58, 237, 0.2);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.todo-button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 16px 24px rgba(124, 58, 237, 0.28);
+}
+
+.uppercase-button {
+  width: 100%;
+  margin-top: 18px;
+  border: none;
+  border-radius: 12px;
+  padding: 12px 18px;
+  background: linear-gradient(135deg, #0f766e 0%, #0ea5a4 100%);
+  color: #f0fdfa;
+  font-size: 0.85rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  cursor: pointer;
+  box-shadow: 0 12px 22px rgba(15, 118, 110, 0.22);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.uppercase-button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 15px 26px rgba(15, 118, 110, 0.3);
 }
 
 .todo-list-wrap {

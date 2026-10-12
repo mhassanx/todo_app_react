@@ -79,7 +79,9 @@ export default function TodoApp() {
             ))}
           </ul>
 
-          <button onClick={upperCaseAll}>Update All to UpperCase</button>
+          <button type="button" className="uppercase-button" onClick={upperCaseAll}>
+            Update All to UpperCase
+          </button>
         </div>
       </section>
     </main>
